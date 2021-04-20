@@ -51,28 +51,31 @@ La clase ha de encapsularse en un módulo ES6 `random-walk.js`.
 Previo a la implementación de la clase, diseñe y desarrolle un conjunto de tests para probar el correcto
 funcionamiento de todos los métodos de la clase.
 
+De algún modo la clase deberá almacenar el camino aleatorio que dibuja.
+Ello resultará conveniente si, además de dibujarlo, hubiera que extender la clase con funcionalidades no
+contempladas en esta propuesta.
+
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
 
-[3] `http://10.6.129.123:8080/einstein-albert-random-walk.html`
+`http://10.6.129.123:8080/einstein-albert-random-walk.html` [1]
 
 en la que se incustará un canvas para dibujar el camino aleatorio.
 Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página.
 
-Trate de usar elementos HTML y CSS que le permitan imitar -en la medida de lo posible- la estética de la
-página anterior.
-No se propone en esta práctica que dote de interactividad a los elementos (botones, campos de texto,
-selectores, etc.) que figuran en la página anterior.
-Sí debe Ud. tratar de imitar los enlaces que aparecen en la página, el tipo de letra o los colores de la
-misma.
+Utilice código HTML y CSS para imitar en la medida de lo posible la apariencia de
+[esta otra página](http://www.randelshofer.ch/webgl/rubikscube/) [2] que se tomará como referencia
+solo a efectos de apariencia visual.
+Sustituya los enlaces y el texto de esta página de referncia [2] por otros que le parezcan relevantes para la
+temática de esta práctica (camino aleatorio).
 
 Diseñe asimismo otra página HTML simple 
 
-[5] `http://10.6.129.123:8080/index.html`
+`http://10.6.129.123:8080/index.html` [3]
 
 que sirva de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
-La página [3] será uno de los enlaces de [5] y a su vez [3] tendrá un enlace "Home" que apunte a [5].
-Enlace también en la página índice [5] las páginas que contienen los informes de documentación y de
+La página [1] será uno de los enlaces de [3] y a su vez [1] tendrá un enlace "Home" que apunte a [3].
+Enlace también en la página índice [3] las páginas que contienen los informes de documentación y de
 cubrimiento de código de su proyecto.
 
 Tenga en cuenta las siguientes especificaciones a la hora de diseñar su programa:
@@ -81,7 +84,8 @@ Tenga en cuenta las siguientes especificaciones a la hora de diseñar su program
 
 * Antes de comenzar a dibujar el camino aleatorio (CA), 
 el programa mostrará en el lienzo una cuadrícula con una determinada densidad (número de intersecciones).
-Esta [figura](https://raw.githubusercontent.com/fsande/PAI-P09-RandomWalk/master/random-walk.png)  
+Esta 
+[figura](https://raw.githubusercontent.com/fsande/PAI-P09-RandomWalk/master/random-walk.png)  
 muestra ejemplos de caminos dibujados sobre retículas de diferente densidad.
 
 * Elija para la cuadrícula inicial una densidad que le parezca apropiada para que el comportamiento del programa sea visualmente atractivo a un usuario final.
@@ -90,19 +94,21 @@ muestra ejemplos de caminos dibujados sobre retículas de diferente densidad.
 
 * El CA ha de comenzar a dibujarse en el centro del canvas y finalizará cuando el camino alcance cualquiera de los bordes del canvas.
 
-* El CA (tal como muestra la [figura](https://raw.githubusercontent.com/fsande/PAI-P09-RandomWalk/master/random-walk.png)) 
+* El CA (tal como muestra la 
+[figura](https://raw.githubusercontent.com/fsande/PAI-P09-RandomWalk/master/random-walk.png)) 
 se dibujará de modo que sólo recorre líneas de la cuadrícula (no se pueden trazar líneas de forma arbitraria en el lienzo).
 
 * El CA se irá dibujando segmento a segmento, partiendo del centro del lienzo y dejando trancurrir 0,5 segundos entre el dibujo de un segmento y el siguiente que se dibuje.
 
-Se deja libertad para cada que cada autor/a diseñe la página HTML en la que se embebe el lienzo (canvas) de la manera que
-prefiera, pero la aplicación deberá al menos contemplar las especificaciones contempladas en este documento.
-El diseño del HTML de esa página brinda una oportunidad para practicar los elementos HTML que se han estudiado hasta ahora.
-No se pretende que se utilicen elementos CSS o HTML no estudiados hasta esta fecha.
+* Dote de funcionalidad al botón `Reset` de su página de modo que al actuar sobre él, se reinicie el dibujo
+  del camino aleatorio.
 
-Se sugiere que, debajo del canvas la página muestre
+El diseño de su página, que ha de imitar el de
+[la de referencia](http://www.randelshofer.ch/webgl/rubikscube/) 
+brinda una oportunidad para practicar los elementos HTML y CSS que se han estudiado hasta ahora.
+No se pretende que se utilicen elementos no estudiados hasta esta fecha.
+
+Se sugiere que la página muestre
 * Un breve texto explicativo de lo que es un camino aleatorio
 * Enlaces a páginas de referencia que se hayan utilizado para realizar este trabajo.
 * Cualquier elemento que les parezca oportuno e interesante.
-Para visualizar esa información habría que desplazarse (*scroll*) en la página puesto que la vista inicial de la misma debiera estar ocupada en su mayor parte por el lienzo que muestra el camino aleatorio.
-
