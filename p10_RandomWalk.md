@@ -69,7 +69,7 @@ solo a efectos de apariencia visual.
 Sustituya los enlaces y el texto de esta página de referencia [2] por otros que le parezcan relevantes para la
 temática de esta práctica (camino aleatorio).
 Se propone que su página muestre
-* Un breve texto explicativo de lo que es un camino aleatorio
+* Texto explicativo de lo que es un camino aleatorio
 * Enlaces a páginas de referencia que se hayan utilizado para realizar este trabajo.
 * Cualquier elemento que les parezca oportuno e interesante.
 
@@ -108,6 +108,6 @@ se dibujará de modo que sólo recorre líneas de la cuadrícula (no se pueden t
   del camino aleatorio.
 
 El diseño de su página, que ha de imitar el de
-[la de referencia](http://www.randelshofer.ch/webgl/rubikscube/) 
+[la de referencia](http://www.randelshofer.ch/webgl/rubikscube/),
 brinda una oportunidad para practicar los elementos HTML y CSS que se han estudiado hasta ahora.
 No se pretende que se utilicen elementos no estudiados hasta esta fecha.
