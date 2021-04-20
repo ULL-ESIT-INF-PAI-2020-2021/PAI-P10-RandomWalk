@@ -85,7 +85,7 @@ Tenga en cuenta las siguientes especificaciones a la hora de diseñar su program
 * Antes de comenzar a dibujar el camino aleatorio (CA), 
 el programa mostrará en el lienzo una cuadrícula con una determinada densidad (número de intersecciones).
 Esta 
-[figura](https://raw.githubusercontent.com/fsande/PAI-P09-RandomWalk/master/random-walk.png)  
+[figura](https://raw.githubusercontent.com/fsande/PAI-P09-RandomWalk/master/random-walk.png)
 muestra ejemplos de caminos dibujados sobre retículas de diferente densidad.
 
 * Elija para la cuadrícula inicial una densidad que le parezca apropiada para que el comportamiento del programa sea visualmente atractivo a un usuario final.
