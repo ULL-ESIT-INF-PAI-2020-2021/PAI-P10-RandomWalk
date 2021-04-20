@@ -66,8 +66,12 @@ Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página.
 Utilice código HTML y CSS para imitar en la medida de lo posible la apariencia de
 [esta otra página](http://www.randelshofer.ch/webgl/rubikscube/) [2] que se tomará como referencia
 solo a efectos de apariencia visual.
-Sustituya los enlaces y el texto de esta página de referncia [2] por otros que le parezcan relevantes para la
+Sustituya los enlaces y el texto de esta página de referencia [2] por otros que le parezcan relevantes para la
 temática de esta práctica (camino aleatorio).
+Se propone que su página muestre
+* Un breve texto explicativo de lo que es un camino aleatorio
+* Enlaces a páginas de referencia que se hayan utilizado para realizar este trabajo.
+* Cualquier elemento que les parezca oportuno e interesante.
 
 Diseñe asimismo otra página HTML simple 
 
@@ -107,8 +111,3 @@ El diseño de su página, que ha de imitar el de
 [la de referencia](http://www.randelshofer.ch/webgl/rubikscube/) 
 brinda una oportunidad para practicar los elementos HTML y CSS que se han estudiado hasta ahora.
 No se pretende que se utilicen elementos no estudiados hasta esta fecha.
-
-Se sugiere que la página muestre
-* Un breve texto explicativo de lo que es un camino aleatorio
-* Enlaces a páginas de referencia que se hayan utilizado para realizar este trabajo.
-* Cualquier elemento que les parezca oportuno e interesante.
